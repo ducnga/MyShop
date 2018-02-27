@@ -29,5 +29,5 @@ const styles = StyleSheet.create({
     row1:{flexDirection:'row',justifyContent:'space-between', backgroundColor: '#34B089',},
     titleStyle:{color:'#FFF',fontSize: 20,fontFamily: 'Avenir',},
     TextInputSearch:{ height:30,backgroundColor:'#FFF',paddingLeft: 10,fontSize: 14,paddingTop: 0,paddingBottom: 2,},
-    iconStyle:{height:25,width:25}
+    iconStyle:{height:30,width:30}
 });
