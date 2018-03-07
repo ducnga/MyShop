@@ -87,7 +87,7 @@ export default class Authentication extends Component {
         {mainJSX}
         <View style={controlStyle}>
           <TouchableOpacity style={signInStyle} onPress={this.signIn.bind(this)} >
-            <Text style={ this.state.isSignIn ? isActiveStyle : activeStyle} >Đăng nhập</Text>
+            <Text style={this.state.isSignIn ? isActiveStyle : activeStyle} >Đăng nhập</Text>
           </TouchableOpacity>
           <TouchableOpacity style={signUpStyle} onPress={this.signUp.bind(this)} >
             <Text style={this.state.isSignIn ? activeStyle : isActiveStyle} >Đăng ký</Text>
